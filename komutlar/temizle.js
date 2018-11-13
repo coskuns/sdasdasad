@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 
 
 exports.run = function(client, message) {
-message.channel.bulkDelete(20);
-message.channel.send("20 mesaj sildim").then(msg => {
+message.channel.bulkDelete(100);
+message.channel.send("100 mesaj sildim").then(msg => {
 	msg.delete(5000)
 })
 
